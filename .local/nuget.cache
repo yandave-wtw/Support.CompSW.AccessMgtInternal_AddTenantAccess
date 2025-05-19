@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3rhWVX10DX+NHMnD8qT4qjm32M1Vh072TL+dgzPlIKju6vCcZHcYppDnsl5jTq8+I2ogU7jUMYe+qIH4DgY+nA==",
+  "dgSpecHash": "UXNgAM50C9oJELezTGlYtz3jzR9SNstqhu1hShdD+bewTmat6A5s2eqypmQLVrMtXu9CfyRRvcvAei9Rb1rigQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yan365910\\RPARepo\\RPA\\Support\\CompSW\\AccessMgtInternal_AddTenantAccess\\.local\\",
+  "projectFilePath": "C:\\Users\\yan365910\\RPARepo\\Support.CompSW.AccessMgtInternal_AddTenantAccess\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\yan365910\\.nuget\\packages\\atlassian.sdk\\13.0.0\\atlassian.sdk.13.0.0.nupkg.sha512",
     "C:\\Users\\yan365910\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
@@ -90,7 +90,6 @@
     "C:\\Users\\yan365910\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\yan365910\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\yan365910\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\yan365910\\.nuget\\packages\\runtime.win7.system.private.uri\\4.3.0\\runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
     "C:\\Users\\yan365910\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
     "C:\\Users\\yan365910\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20230306.1\\system.activities.viewmodels.1.0.0-20230306.1.nupkg.sha512",
     "C:\\Users\\yan365910\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
+    "net8.0-windows7.0": {
       "Atlassian.SDK/13.0.0": {
         "type": "package",
         "dependencies": {
@@ -3198,7 +3198,7 @@
         ]
       }
     },
-    "net6.0-windows7.0/win10-x64": {
+    "net8.0-windows7.0/win-x64": {
       "Atlassian.SDK/13.0.0": {
         "type": "package",
         "dependencies": {
@@ -3991,14 +3991,7 @@
         "type": "package"
       },
       "Microsoft.Management.Infrastructure.Runtime.Win/2.0.0": {
-        "type": "package",
-        "runtime": {
-          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll": {},
-          "runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll": {}
-        },
-        "native": {
-          "runtimes/win10-x64/native/_._": {}
-        }
+        "type": "package"
       },
       "Microsoft.NETCore.Platforms/5.0.0": {
         "type": "package",
@@ -4491,15 +4484,6 @@
       },
       "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "type": "package"
-      },
-      "runtime.win7.System.Private.Uri/4.3.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard/_._": {}
-        },
-        "runtime": {
-          "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
-        }
       },
       "SharpZipLib/1.3.3": {
         "type": "package",
@@ -5078,8 +5062,7 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "runtime.win7.System.Private.Uri": "4.3.0"
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
           "ref/netstandard/_._": {}
@@ -8402,22 +8385,6 @@
         "version.txt"
       ]
     },
-    "runtime.win7.System.Private.Uri/4.3.0": {
-      "sha512": "Q+IBgaPYicSQs2tBlmXqbS25c/JLIthWrgrpMwxKSOobW/OqIMVFruUGfuaz4QABVzV8iKdCAbN7APY7Tclbnw==",
-      "type": "package",
-      "path": "runtime.win7.system.private.uri/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "ref/netstandard/_._",
-        "runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
-        "runtime.win7.system.private.uri.nuspec",
-        "runtimes/aot/lib/netcore50/System.Private.Uri.dll",
-        "runtimes/win/lib/netcore50/System.Private.Uri.dll",
-        "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll"
-      ]
-    },
     "SharpZipLib/1.3.3": {
       "sha512": "N8+hwhsKZm25tDJfWpBSW7EGhH/R7EMuiX+KJ4C4u+fCWVc1lJ5zg1u3S1RPPVYgTqhx/C3hxrqUpi6RwK5+Tg==",
       "type": "package",
@@ -11659,7 +11626,7 @@
   },
   "projectFileDependencyGroups": {
     "": [],
-    "net6.0-windows7.0": [
+    "net8.0-windows7.0": [
       "UiPath.Database.Activities >= 1.7.1 <= 1.7.1",
       "UiPath.System.Activities >= 23.4.5 <= 23.4.5",
       "UiPath.WebAPI.Activities >= 1.16.2 <= 1.16.2",
@@ -11674,12 +11641,12 @@
     "restore": {
       "projectUniqueName": "Support.CompSW.AccessMgtInternal_AddTenantAccess",
       "projectName": "Support.CompSW.AccessMgtInternal_AddTenantAccess",
-      "projectPath": "C:\\Users\\yan365910\\RPARepo\\RPA\\Support\\CompSW\\AccessMgtInternal_AddTenantAccess\\.local",
+      "projectPath": "C:\\Users\\yan365910\\RPARepo\\Support.CompSW.AccessMgtInternal_AddTenantAccess\\.local",
       "packagesPath": "C:\\Users\\yan365910\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yan365910\\RPARepo\\RPA\\Support\\CompSW\\AccessMgtInternal_AddTenantAccess\\.local"
+      "outputPath": "C:\\Users\\yan365910\\RPARepo\\Support.CompSW.AccessMgtInternal_AddTenantAccess\\.local"
     },
     "frameworks": {
-      "net6.0-windows7.0": {
+      "net8.0-windows7.0": {
         "dependencies": {
           "UiPath.Database.Activities": {
             "include": "Runtime",
@@ -11707,11 +11674,11 @@
             "version": "[0.221117.22152452, 0.221117.22152452]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
-      "win10-x64": {
+      "win-x64": {
         "#import": []
       }
     }

@@ -1,5 +1,6 @@
 {
   "name": "Support.CompSW.AccessMgtInternal_AddTenantAccess",
+  "projectId": "ed6fc974-d3b1-4428-9054-b3469e4b2ef4",
   "description": "Grant internal WTW user access to CompSw tenant",
   "main": "Main.xaml",
   "dependencies": {
@@ -43,7 +44,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "saveToCloud": false
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [
